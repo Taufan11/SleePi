@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 # set the project name
 project(SleePI)
 
-SET("OpenCV_DIR" "C:/OpenCV-MinGW-Build-OpenCV-4.5.5-x64")
+SET("OpenCV_DIR" "C:\OpenCV-MinGW-Build-OpenCV-4.5.2-x64")
 
 # Disable in-source builds to prevent source tree corruption.
 if(" ${CMAKE_SOURCE_DIR}" STREQUAL " ${CMAKE_BINARY_DIR}")
